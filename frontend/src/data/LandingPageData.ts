@@ -1,3 +1,5 @@
+import CoursePic from './../assets/LandingPage/course_pic.jpg'
+
 export const hero = {
     title:"DISCOVER, REVIEW AND SHARE YOUR EXPERIENCES",
     sub_title:"Find and review online degrees, courses, colleges and universities.\n Help and guide others in their edu-journey. ",
@@ -39,4 +41,28 @@ export const testimonials = {
         }
     ]
 
+}
+
+export const reviewed = {
+    title:"Recently Reviewed",
+    reviewed_list : [
+        {
+            image:CoursePic,
+            item_name:"[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02",
+            rating:3,
+            tag:"Udemy"
+        },
+        {
+            image:CoursePic,
+            item_name:"[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02",
+            rating:4,
+            tag:"Udemy"
+        },
+        {
+            image:CoursePic,
+            item_name:"[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02",
+            rating:5,
+            tag:"Udemy"
+        }
+    ]
 }

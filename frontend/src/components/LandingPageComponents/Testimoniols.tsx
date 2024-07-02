@@ -3,11 +3,11 @@ import { testimonials } from '../../data/LandingPageData'
 import TestimonialCard from './TestimonialCard'
 
 export interface Test {
-    message: String,
+    message: string,
     user: {
-        name: String,
-        tag_name: String,
-        pofile_pic: String
+        name: string,
+        tag_name: string,
+        pofile_pic: string
     }
 }
 
