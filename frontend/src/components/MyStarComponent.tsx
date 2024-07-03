@@ -11,8 +11,8 @@ const MyStarComponent:React.FC<RatingProps> = ({value}) => {
     const unfilled = 5 - value
   return (
     <div className='flex'>
-        {[...Array(value)].map(filled => <FaStar className='text-yellow-300'/>)}
-        {[...Array(unfilled)].map(unfilled => <FaRegStar className='text-yellow-300'/>)}
+        {[...Array(value)].map(filled => <FaStar key={filled} className='text-yellow-300'/>)}
+        {[...Array(unfilled)].map(unfilled => <FaRegStar key={unfilled} className='text-yellow-300'/>)}
     
     </div>
   )
