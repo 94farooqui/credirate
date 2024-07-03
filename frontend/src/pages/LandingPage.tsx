@@ -15,7 +15,7 @@ const LandingPage = () => {
         <Testimoniols/>
         <RecentlyReviewed/>
         <JoinUs/>
-        <Footer/>
+        
       </div>
     </div>
   )
