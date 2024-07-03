@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {reviewed} from './../../data/LandingPageData'
 import ReviewedCard from './ReviewedCard'
 

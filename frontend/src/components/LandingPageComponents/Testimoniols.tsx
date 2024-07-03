@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { testimonials } from '../../data/LandingPageData'
 import TestimonialCard from './TestimonialCard'
 

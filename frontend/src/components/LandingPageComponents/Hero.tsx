@@ -1,4 +1,4 @@
-import React from 'react'
+
 import LandingHero from './../../assets/LandingPage/landing_Hero.svg'
 import {hero} from '../../data/LandingPageData'
 

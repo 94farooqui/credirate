@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {Test} from './Testimoniols'
 
 interface TestProps{

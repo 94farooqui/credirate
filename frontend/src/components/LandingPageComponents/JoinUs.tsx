@@ -1,4 +1,4 @@
-import React from 'react'
+
 import JoinImage from './../../assets/LandingPage/undraw_join.svg'
 
 const JoinUs = () => {

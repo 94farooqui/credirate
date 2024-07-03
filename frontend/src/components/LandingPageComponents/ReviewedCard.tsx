@@ -1,5 +1,4 @@
-import React from 'react'
-import { Test } from './Testimoniols'
+
 import { ReviewItem } from './RecentlyReviewed'
 import MyStarComponent from '../MyStarComponent'
 
