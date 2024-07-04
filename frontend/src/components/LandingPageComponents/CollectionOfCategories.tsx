@@ -4,7 +4,7 @@ const CollectionOfCategories = () => {
   return (
     <>
       <div className='sm:hidden w-screen'>
-        <div className='flex flex-col items-center justify-start gap-2 text-white font-exo'>
+        <div className='w-[95%] mx-auto flex flex-col items-center justify-start gap-2 text-white font-exo'>
           <h2 className='text-2xl text-center font-bold'>{categories.title}</h2>
           <p className='text-sm text-center text-stone-300'>{categories.sub_title}</p>
           <div className='mt-4 w-[95%] flex gap-1 justify-center flex-wrap'>
